@@ -1,0 +1,25 @@
+# Dependencies
+markdown:         redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+highlighter:      pygments
+gems:             [jekyll-gist]
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            OrientDB Documentation
+tagline:          'OrientDB'
+description:      'This is a test'
+url:              http://example.com
+baseurl:          /
+
+author:
+  name:           'DB'
+
+# Custom vars
+version:          0.0.1
+
+github:
+  repo:           https://github.com/dberaldin/dberaldin.github.io
